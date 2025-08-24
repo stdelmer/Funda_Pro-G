@@ -45,6 +45,13 @@ def main():
     print("¡¡¡los meses del año¡¡¡")
     mes = int(input("Ingresa un mes siendo 1 - enero y 12 - diciembre: "))
     devolvio = imprimir_mes(mes)
-    print(devolvio)
-
+    """
+    mes1 = 4
+    mes2 = 6
+    mes3 = 14
+    devolvio1 = imprimir_mes(mes1)
+    devolvio2 = imprimir_mes(mes2)
+    devolvio3 = imprimir_mes(mes3)
+    print(f"mes1:{devolvio1}\nmes2: {devolvio2}\nmes3: {devolvio3}")
+    """
 main()
